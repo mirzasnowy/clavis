@@ -1,0 +1,7 @@
+# Linux — contoh pola, bukan daftar hapus buta.
+# NEVER list memblokir systemd, dbus, NetworkManager, gdm/sddm, kernel.
+# Contoh yang umumnya bisa dipertimbangkan (riset dulu per laptop):
+# apport (crash reporter, kalau tidak dipakai)
+# cups (printer, kalau tidak ada printer)
+# thunderbird (kalau tidak dipakai)
+# libreoffice-* (kalau tidak dipakai, hapus per paket, bukan wildcard)

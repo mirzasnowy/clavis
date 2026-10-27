@@ -1,0 +1,7 @@
+# TEMPLATE ONLY — not a real brand list.
+# Replace with the per-model list from probe + CleanYourTV/tv-home,
+# after filtering out every app the user actually uses.
+# Lines starting with # are ignored. One package name per line.
+# Example format (do NOT use these blindly):
+# com.example.manufacturer.telemetry
+# com.example.sponsored.rows

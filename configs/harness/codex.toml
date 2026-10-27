@@ -1,0 +1,3 @@
+[mcp_servers.device-control]
+command = "python3"
+args = ["-m", "device_control.mcp_server"]

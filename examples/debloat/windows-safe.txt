@@ -1,0 +1,10 @@
+# Windows AppX — contoh pola, BUKAN daftar hapus buta.
+# Ganti wildcard di bawah dengan nama paket hasil probe di PC kamu,
+# dan centang dulu app yang kamu pakai (Xbox kalau main game, dll).
+# NEVER list di never.py selalu memblokir Store/.NET/terminal.
+# Contoh yang umumnya aman DIHAPUS PER USER (riset dulu per PC):
+# XboxGamingOverlay
+# MicrosoftTeams
+# MicrosoftSolitaireCollection
+# Microsoft.BingWeather
+# Microsoft.GetHelp

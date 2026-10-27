@@ -1,0 +1,1 @@
+{"mcpServers":{"device-control":{"args":["-m","device_control.mcp_server"],"command":"python3"}}}

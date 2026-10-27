@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "device-control"
+version = "0.1.0"
+description = "One controller for Windows PC, laptop, Android phone and Android TV: debloat + custom appearance + full admin control, with pairing, scope, signed tokens and audit."
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+crypto = ["cryptography>=42"]
+mcp = ["fastmcp>=2"]
+
+[project.scripts]
+device-control = "device_control.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

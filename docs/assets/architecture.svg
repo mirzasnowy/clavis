@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="960" height="520" rx="16" fill="#0b1220"/>
+<text x="480" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#f5c542">CLAVIS — how a command flows</text>
+<text x="480" y="64" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#94a3b8">Harness thinks · Clavis checks · Driver executes · Device changes — nothing skips the middle box</text>
+<g font-family="sans-serif">
+<rect x="30" y="110" width="190" height="110" rx="12" fill="#1e293b" stroke="#334155"/>
+<text x="125" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#e2e8f0">HARNESS (brain)</text>
+<text x="125" y="165" text-anchor="middle" font-size="12" fill="#94a3b8">Claude Code · Codex</text>
+<text x="125" y="185" text-anchor="middle" font-size="12" fill="#94a3b8">OpenCode · Hermes</text>
+<rect x="270" y="110" width="190" height="110" rx="12" fill="#1e293b" stroke="#f5c542"/>
+<text x="365" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#f5c542">CLAVIS CORE</text>
+<text x="365" y="165" text-anchor="middle" font-size="12" fill="#e2e8f0">registry · scope · pairing</text>
+<text x="365" y="185" text-anchor="middle" font-size="12" fill="#e2e8f0">token 60s · audit · NEVER</text>
+<rect x="510" y="110" width="190" height="110" rx="12" fill="#1e293b" stroke="#334155"/>
+<text x="605" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#e2e8f0">DRIVERS (native)</text>
+<text x="605" y="165" text-anchor="middle" font-size="12" fill="#94a3b8">PowerShell · systemd/apt</text>
+<text x="605" y="185" text-anchor="middle" font-size="12" fill="#94a3b8">ADB · UI Automation · AT-SPI</text>
+<rect x="750" y="110" width="180" height="110" rx="12" fill="#1e293b" stroke="#334155"/>
+<text x="840" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#e2e8f0">DEVICES</text>
+<text x="840" y="165" text-anchor="middle" font-size="12" fill="#94a3b8">Windows PC · Laptop</text>
+<text x="840" y="185" text-anchor="middle" font-size="12" fill="#94a3b8">HP Android · TV Android</text>
+<text x="235" y="170" text-anchor="middle" font-size="20" fill="#f5c542">→</text>
+<text x="475" y="170" text-anchor="middle" font-size="20" fill="#f5c542">→</text>
+<text x="715" y="170" text-anchor="middle" font-size="20" fill="#f5c542">→</text>
+</g>
+<g font-family="sans-serif">
+<rect x="30" y="260" width="900" height="90" rx="12" fill="#111827" stroke="#f5c542" stroke-dasharray="6 4"/>
+<text x="480" y="290" text-anchor="middle" font-size="14" font-weight="700" fill="#f5c542">SECURITY, BEFORE ANY ACTION</text>
+<text x="480" y="315" text-anchor="middle" font-size="12" fill="#e2e8f0">dry-run first · backup second · confirm third · MCP is dry-run only · every change lands in the audit hash-chain</text>
+<text x="480" y="335" text-anchor="middle" font-size="12" fill="#94a3b8">Ed25519 pairing + SAS 6-digit · per-device scope · revoke = re-pair from zero</text>
+</g>
+<g font-family="sans-serif">
+<rect x="30" y="380" width="280" height="90" rx="12" fill="#1e293b"/>
+<text x="170" y="410" text-anchor="middle" font-size="13" font-weight="700" fill="#e2e8f0">OPEN, DON'T CLICK</text>
+<text x="170" y="435" text-anchor="middle" font-size="12" fill="#94a3b8">launch = app · open-website = site</text>
+<text x="170" y="455" text-anchor="middle" font-size="12" fill="#94a3b8">tap = only inside an open app</text>
+<rect x="340" y="380" width="280" height="90" rx="12" fill="#1e293b"/>
+<text x="480" y="410" text-anchor="middle" font-size="13" font-weight="700" fill="#e2e8f0">EXISTING OS, NOT A NEW OS</text>
+<text x="480" y="435" text-anchor="middle" font-size="12" fill="#94a3b8">debloat + customise the OS you have</text>
+<text x="480" y="455" text-anchor="middle" font-size="12" fill="#94a3b8">no OS replacement, no root</text>
+<rect x="650" y="380" width="280" height="90" rx="12" fill="#1e293b"/>
+<text x="790" y="410" text-anchor="middle" font-size="13" font-weight="700" fill="#e2e8f0">v0.1.0 · HONEST STATUS</text>
+<text x="790" y="435" text-anchor="middle" font-size="12" fill="#94a3b8">42/42 tests on a Linux host</text>
+<text x="790" y="455" text-anchor="middle" font-size="12" fill="#94a3b8">real Windows/Android: not tested yet</text>
+</g>
+</svg>

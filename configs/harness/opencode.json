@@ -1,0 +1,1 @@
+{"$schema":"https://opencode.ai/config.json","mcp":{"device-control":{"command":["python3","-m","device_control.mcp_server"],"enabled":true,"type":"local"}}}
